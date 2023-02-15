@@ -17,7 +17,7 @@ const require = createRequire(__dirname) // Bring in the ability to create the '
 const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
 
 say('Bot Whatsapp MD', { font: 'chrome', align: 'center', gradient: ['blue', 'green'] })
-say(`'ZiroBotz-MD-V8' By Ziro-MD Official`, { font: 'console', align: 'center', gradient: ['blue', 'green'] })
+say(`'ZykoBotz-MD-V4' By ZykoBotz-MD Official`, { font: 'console', align: 'center', gradient: ['blue', 'green'] })
 
 var isRunning = false
 /**
