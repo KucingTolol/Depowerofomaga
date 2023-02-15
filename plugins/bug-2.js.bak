@@ -8,7 +8,7 @@ conn.sendMessage(text + '@s.whatsapp.net', {
 text: 'POWERED BY MD-BOTZ VVIP', 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
-{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/6289636371132'}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/6289'}},
 { urlButton: { displayText: `ID GORUP`, url: 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'}},
 { quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
 { quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
