@@ -1,17 +1,17 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '2'
-let sn = '10'
-let ss = '20'
-let sp = '25'
-let sv = '45'
+let sh = '5'
+let sn = '15'
+let ss = '30'
+let sp = '35'
+let sv = '65'
 //premium
-let ph = '2'
-let pn = '10'
-let pp = '20'
-let pv = '40'
-let ppm = '55'
+let ph = '5'
+let pn = '20'
+let pp = '40'
+let pv = '50'
+let ppm = '70'
 let info = `
 ╭━━━━「 *SEWA* 」
 ┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
@@ -32,6 +32,9 @@ let info = `
 *⫹⫺ PAYMENT:*
 • *Pulsa Telkomsel:* [${ppulsa}]
 • *Dana:* [${pdana}]
+• *Gopay:* [${pgopay}]
+• *Ovo:* [${povo}]
+• *Link Aja:* [${plinkaja}]
 
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, Kok harganya mahal banget?

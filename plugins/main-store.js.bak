@@ -26,22 +26,22 @@ let ucpn = `${ucapan()}`
 let name = conn.getName(m.sender)
 
 //sewa
-let sh = '2'
-let sn = '10'
-let ss = '25'
-let sp = '30'
-let sv = '45'
+let sh = '5'
+let sn = '15'
+let ss = '30'
+let sp = '35'
+let sv = '65'
 //premium
-let ph = '2'
-let pn = '10'
-let pp = '25'
-let pv = '30'
-let ppm = '45'
+let ph = '5'
+let pn = '20'
+let pp = '40'
+let pv = '50'
+let ppm = '70'
 let wibb = `${wktuwib}`
 
 let info = 
 `
-Open Sewa Bot:)
+Belum Tau Mau Jual Apa:)
 `
   /*  {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
 	    {title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
@@ -52,27 +52,24 @@ const sections = [{
 title: `⟥⟝⟢⟨ Sᴇᴡᴀ Bᴏᴛ ⟩⟣⟞⟤`,
 rows: [
 {title: "⟣⟨ HEMAT ⟩⟢",
-rowId: '.store sewabottt 15 Hari',
-description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 2 ᴋ : 15 Hᴀʀɪ' },
+rowId: '.store sewabottt 7 Hari',
+description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 5 ᴋ : 7 Hᴀʀɪ' },
 {title: "⟣⟨ NORMAL ⟩⟢",
-rowId: '.store sewabottt 30 Hari',
-description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 7 ᴋ : 30 Hᴀʀɪ' },
+rowId: '.store sewabottt 15 Hari',
+description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 10 ᴋ : 15 Hᴀʀɪ' },
 {title: "⟣⟨ STANDAR ⟩⟢",
-rowId: '.store sewabottt 40 hari',
-description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 10 ᴋ : 40 Hᴀʀɪ' },
+rowId: '.store sewabottt 30 hari',
+description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 20 ᴋ : 30 Hᴀʀɪ' },
 {title: "⟣⟨ PRO ⟩⟢",
-rowId: '.store sewabottt 50 hari',
-description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 15 ᴋ : 50 Hᴀʀɪ' },
+rowId: '.store sewabottt 40 hari',
+description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 25 ᴋ : 40 Hᴀʀɪ' },
 ]},
 {
 title: `${htjava} PREMIUM ✦-------`,
 rows: [
 {title: "🌟 HEMAT", 
-rowId: '.order  *premium 20 hari*', 
-description: 'PRICE: ' + ph + 'k (20 Hᴀʀɪ)' },
-{title: "🌟 NORMAL", 
-rowId: '.order *premium 43 hari*', 
-description: 'PRICE: ' + pn + 'k (43 Hᴀʀɪ)' },
+rowId: '.order *Paket:* HEMAT • Premium', 
+description: 'PRICE: ' + ph + 'k (1 minggu)' },
 ]},
 ]
 
@@ -111,7 +108,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
 
 handler.help = ['store']
 handler.tags = ['main']
-handler.command = /^(masuk)$/i
+handler.command = /^(store)$/i
 
 export default handler
 
