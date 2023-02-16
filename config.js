@@ -67,7 +67,7 @@ global.stickauth = `© 𝐌𝐃-𝐁𝐎𝐓𝐙`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown = '𝐏𝐀𝐊 𝐙𝐀𝐈𝐍𝐀𝐋 𝐃𝐄𝐕'𝐒'
+global.nameown = "𝐏𝐀𝐊 𝐙𝐀𝐈𝐍𝐀𝐋 𝐃𝐄𝐕'𝐒"
 global.ultahowner = 'AGUSTUS 08 2023'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sgc = 'https://chat.whatsapp.com/Fi4qC8VaPzZ40Z1sIoXVgx' //group whatsapp
